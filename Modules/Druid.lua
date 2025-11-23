@@ -53,14 +53,14 @@ do
 --==================================================
 
    local cooldowns = {
-      BS_ID     = {id = 0000,    ready = false, reason = "", remaining = 0, name = "Bark Skin",             info = "Defensive cooldown"},
-      SI_ID     = {id = 0000,    ready = false, reason = "", remaining = 0, name = "Survival Instincts",    info = "Defensive cooldown major damage reduction"},
-      PV_ID     = {id = 0000,    ready = false, reason = "", remaining = 0, name = "Pulverize",             info = "Pulverized tragets have reduced damage output"},
-      ROS_ID    = {id = 0000,    ready = false, reason = "", remaining = 0, name = "Rage of the Sleeper",   info = "Damage reduction, reflect, and healing; very strong when active"},
-      FR_ID     = {id = 0000,    ready = false, reason = "", remaining = 0, name = "Frenzied Regeneration", info = "Heal over time effect"},
-      RG_ID     = {id = 0000,    ready = false, reason = "", remaining = 0, name = "Regrowth",              info = "Casted Heal, use with caution, shapeshifts out of bear form"},
-      RNW_ID    = {id = 0000,    ready = false, reason = "", remaining = 0, name = "Renewal",               info = "Instant self heal"},
-      GOU_ID    = {id = 0000,    ready = false, reason = "", remaining = 0, name = "Gaurdian of Ursoc",     info = "Improved bear form; upgrades all defensive tools"},
+      BS_ID     = {id = 22812,    ready = false, reason = "", remaining = 0, name = "Bark Skin",             info = "Defensive cooldown"},
+      SI_ID     = {id = 61336,    ready = false, reason = "", remaining = 0, name = "Survival Instincts",    info = "Defensive cooldown major damage reduction"},
+      PV_ID     = {id = 80313,    ready = false, reason = "", remaining = 0, name = "Pulverize",             info = "Pulverized tragets have reduced damage output"},
+      ROS_ID    = {id = 200851,   ready = false, reason = "", remaining = 0, name = "Rage of the Sleeper",   info = "Damage reduction, reflect, and healing; very strong when active"},
+      FR_ID     = {id = 22842,    ready = false, reason = "", remaining = 0, name = "Frenzied Regeneration", info = "Heal over time effect"},
+      RG_ID     = {id = 8936,     ready = false, reason = "", remaining = 0, name = "Regrowth",              info = "Casted Heal, use with caution, shapeshifts out of bear form"},
+      RNW_ID    = {id = 108238,   ready = false, reason = "", remaining = 0, name = "Renewal",               info = "Instant self heal"},
+      GOU_ID    = {id = 102558,   ready = false, reason = "", remaining = 0, name = "Gaurdian of Ursoc",     info = "Improved bear form; upgrades all defensive tools"},
     }
 
 --===============================================
@@ -83,8 +83,9 @@ do
 
 -- Class buffs to mark "recently active"
   local buffs = {
-      IF_ID     = {id = 0000,   ready = false, reason = "", remaining = 0, name = "Iron Fur",  info = "Active mitigation, increases armour, stacks"},
-      BF_ID     = {id = 0000,   ready = false, reason = "", remaining = 0, name = "Bear Form", info = "Druid best defensive form, increases armor and stamina"},
+      IF_ID     = {id = 192081, ready = false, reason = "", remaining = 0, name = "Iron Fur",         info = "Active mitigation, increases armour, stacks"},
+      BF_ID     = {id = 5487,   ready = false, reason = "", remaining = 0, name = "Bear Form",        info = "Druid best defensive form, increases armor and stamina"},
+      MOW_ID    = {id = 1126,   ready = false, reason = "", remaining = 0, name = "Mark of the Wild", info = "Versatility increase, Druid party/raid buff"},
   }
 
 -- Harmful debuffs and spec relevant debuffs

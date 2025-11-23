@@ -53,14 +53,14 @@ do
 --==================================================
 
    local cooldowns = {
-      DS_ID     = {id = 00000,  ready = false, reason = "", remaining = 0, name = "Demon Spikes",         info = "Damage reduction, active mitigation"},
-      FB_ID     = {id = 0000,   ready = false, reason = "", remaining = 0, name = "Firey Brand",          info = "Single target damage reduction, can spread to others if talented"},
-      FT_ID     = {id = 0000,   ready = false, reason = "", remaining = 0, name = "Frailty",              info = "Applied debuff that heals relative to damage dealt also reduces incoming damage"},
-      MET_ID    = {id = 00000,  ready = false, reason = "", remaining = 0, name = "Metamorphosis",        info = "Defensive cooldown, major damage reduction, heal, leech"},
-      SC_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Soul Cleave",          info = "Attack and self heal"},
-      FD_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Fel Devastation",      info = "Frontal attack, channeled self heal"},
-      IO_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Imolation Aura",       info = "AOE damage, self heal component when talented"},
-      DKN_ID    = {id = 000000, ready = false, reason = "", remaining = 0, name = "Darkness",             info = "Ground-placed raid/party defensive that gives everyone inside a chance to avoid incoming damage"},
+      DS_ID     = {id = 203720, ready = false, reason = "", remaining = 0, name = "Demon Spikes",         info = "Damage reduction, active mitigation"},
+      FB_ID     = {id = 204021, ready = false, reason = "", remaining = 0, name = "Firey Brand",          info = "Single target damage reduction, can spread to others if talented"},
+      SF_ID     = {id = 204596, ready = false, reason = "", remaining = 0, name = "Sigil of Flame",       info = "Applies fratility debuff that heals relative to damage dealt also reduces incoming damage"},
+      MET_ID    = {id = 187827, ready = false, reason = "", remaining = 0, name = "Metamorphosis",        info = "Defensive cooldown, major damage reduction, heal, leech"},
+      SC_ID     = {id = 228477, ready = false, reason = "", remaining = 0, name = "Soul Cleave",          info = "Attack and self heal"},
+      FD_ID     = {id = 212084, ready = false, reason = "", remaining = 0, name = "Fel Devastation",      info = "Frontal attack, channeled self heal"},
+      IO_ID     = {id = 258920, ready = false, reason = "", remaining = 0, name = "Imolation Aura",       info = "AOE damage, self heal component when talented"},
+      DKN_ID    = {id = 196718, ready = false, reason = "", remaining = 0, name = "Darkness",             info = "Ground-placed raid/party defensive that gives everyone inside a chance to avoid incoming damage"},
     }
 
 --===============================================
@@ -83,7 +83,7 @@ do
 
 -- Class buffs to mark "recently active"
   local buffs = {
-      DSA_ID    = {id = 00000,   ready = false, reason = "", remaining = 0, name = "Demon Spikes",      info = "Damage reduction, active mitigation"},
+      DSA_ID    = {id = 203819,   ready = false, reason = "", remaining = 0, name = "Demon Spikes",      info = "Damage reduction, active mitigation"},
   }
 
 -- Harmful debuffs and spec relevant debuffs

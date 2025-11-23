@@ -53,18 +53,17 @@ do
 --==================================================
 
    local cooldowns = {
-      RT_ID     = {id = 00000,  ready = false, reason = "", remaining = 0, name = "Rune Tap",             info = "Damage reduction, active mitigation"},
-      DRW_ID    = {id = 0000,   ready = false, reason = "", remaining = 0, name = "Dancing Rune Weapon",  info = "Damage reduction and increased parry chance, smoothes incoming damage"},
-      AMS_ID    = {id = 0000,   ready = false, reason = "", remaining = 0, name = "Anti-Magic Shell",     info = "Magic absorb and runic power generation, can be cast on other players"},
-      AMZ_ID    = {id = 00000,  ready = false, reason = "", remaining = 0, name = "Anti-Magic Zone",      info = "Raid/party defensive that reduces magic damage taken inside the zone, effectiveness decreases as more magic damage is absorbed"},
-      IF_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Icebound Fortitude",   info = "Defernsive cooldown, damage reduction and stun immunity"},
-      DS_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Death Strike",         info = "Attack that self heals relative to recent damage intake"},
-      VB_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Vamperic Blood",       info = "Increases max HP, Increases all healing taken"},
-      CON_ID    = {id = 000000, ready = false, reason = "", remaining = 0, name = "Consumption",          info = "AOE attack with self heal component"},
-      BD_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Blood Drinker",        info = "Channeled attack with self heal component"},
-      LB_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Sacrificial Pact",     info = "Consumes ghoul for a busrt of damage and self heal"},
-      SP_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Lichborne",            info = "Leech (Heal from damage done) includes fear immunity"},
-      TS_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Tombstone",            info = "Consumes bone shield for a damage reduction window"},
+      DRW_ID    = {id = 49028,  ready = false, reason = "", remaining = 0, name = "Dancing Rune Weapon",  info = "Damage reduction and increased parry chance, smoothes incoming damage"},
+      AMS_ID    = {id = 48707,  ready = false, reason = "", remaining = 0, name = "Anti-Magic Shell",     info = "Magic absorb and runic power generation, can be cast on other players"},
+      AMZ_ID    = {id = 51012,  ready = false, reason = "", remaining = 0, name = "Anti-Magic Zone",      info = "Raid/party defensive that reduces magic damage taken inside the zone, effectiveness decreases as more magic damage is absorbed"},
+      DP_ID     = {id = 48743,  ready = false, reason = "", remaining = 0, name = "Death Pact",           info = "50% HP heal but reduces incoming heals by 30%"},
+      IF_ID     = {id = 48792,  ready = false, reason = "", remaining = 0, name = "Icebound Fortitude",   info = "Defernsive cooldown, damage reduction and stun immunity"},
+      DS_ID     = {id = 49998,  ready = false, reason = "", remaining = 0, name = "Death Strike",         info = "Attack that self heals relative to recent damage intake"},
+      VB_ID     = {id = 55233,  ready = false, reason = "", remaining = 0, name = "Vamperic Blood",       info = "Increases max HP, Increases all healing taken"},
+      CON_ID    = {id = 274156, ready = false, reason = "", remaining = 0, name = "Consumption",          info = "AOE attack with self heal component"},
+      SP_ID     = {id = 327574, ready = false, reason = "", remaining = 0, name = "Sacrificial Pact",     info = "Consumes ghoul for a busrt of damage and self heal"},
+      LB_ID     = {id = 49039,  ready = false, reason = "", remaining = 0, name = "Lichborne",            info = "Leech (Heal from damage done) includes fear immunity"},
+      TS_ID     = {id = 219809, ready = false, reason = "", remaining = 0, name = "Tombstone",            info = "Consumes bone shield for a damage reduction window"},
     }
 
 --===============================================
@@ -87,9 +86,8 @@ do
 
 -- Class buffs to mark "recently active"
   local buffs = {
-      RTA_ID    = {id = 00000,   ready = false, reason = "", remaining = 0, name = "Rune Tap",             info = "Damage reduction, active mitigation"},
-      DRWA_ID   = {id = 00000,   ready = false, reason = "", remaining = 0, name = "Danicng Rune Weapon",  info = "Damage reduction and increased parry chance, smoothes incoming damage"},
-      BSA_ID    = {id = 00000,   ready = false, reason = "", remaining = 0, name = "Bone Shield",          info = "Active mitigation; keep stacks high. Gained by using Marrowrend or Dancing Rune Weapon"},
+      DRWA_ID   = {id = 81256,   ready = false, reason = "", remaining = 0, name = "Danicng Rune Weapon",  info = "Damage reduction and increased parry chance, smoothes incoming damage"},
+      BSA_ID    = {id = 195181,  ready = false, reason = "", remaining = 0, name = "Bone Shield",          info = "Active mitigation; keep stacks high. Gained by using Marrowrend or Dancing Rune Weapon"},
   }
 
 -- Harmful debuffs and spec relevant debuffs
