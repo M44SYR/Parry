@@ -1,0 +1,27 @@
+# OS files
+Thumbs.db
+.DS_Store
+
+# WoW backups
+*.bak
+*.old
+
+# Editor/IDE files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Build/Release output
+/release/
+/dist/
+/pkg/
+/build/
+*.zip
+
+# Lua/Addon specific
+*.luac
+*.tmp
+
+# Logs
+*.log
