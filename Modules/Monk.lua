@@ -53,16 +53,17 @@ do
 --==================================================
 
    local cooldowns = {
-      PB_ID     = {id = 00000,  ready = false, reason = "", remaining = 0, name = "Purifying Brew",       info = "Removes stagger damage"},
-      CB_ID     = {id = 00000,  ready = false, reason = "", remaining = 0, name = "Celestial Brew",       info = "Defensive cooldowm, large absorb shield"},
-      FB_ID     = {id = 0000,   ready = false, reason = "", remaining = 0, name = "Fortifying Brew",      info = "Defensive cooldown, temporary max HP increase"},
-      DH_ID     = {id = 0000,   ready = false, reason = "", remaining = 0, name = "Dampen Harm",          info = "Defensive cooldown"},
-      DM_ID     = {id = 00000,  ready = false, reason = "", remaining = 0, name = "Difuse Magic",         info = "Magic damage reduction"},
-      EH_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Expel Harm",           info = "Self heal and incoming damage reduction"},
-      HE_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Healing Elixir",       info = "Instant heal"},
-      ZM_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Zen Meditation",       info = "Defensive cooldown, strong against magic damage"},
-      BOB_ID    = {id = 000000, ready = false, reason = "", remaining = 0, name = "Black Ox Brew",        info = "Resets 'brews' cooldowns"},
-      IN_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Invoke Niuzao",        info = "Reduces stagger"},
+      PB_ID     = {id = 119582, ready = false, reason = "", remaining = 0, name = "Purifying Brew",       info = "Removes stagger damage"},
+      CB_ID     = {id = 322507, ready = false, reason = "", remaining = 0, name = "Celestial Brew",       info = "Defensive cooldowm, large absorb shield"},
+      FB_ID     = {id = 115203, ready = false, reason = "", remaining = 0, name = "Fortifying Brew",      info = "Defensive cooldown, temporary max HP increase"},
+      CI_ID     = {id = 1241059,ready = false, reason = "", remaining = 0, name = "Celestial Infusion",   info = "Defensive cooldown"},
+      DH_ID     = {id = 122278, ready = false, reason = "", remaining = 0, name = "Dampen Harm",          info = "Defensive cooldown"},
+      DM_ID     = {id = 122783, ready = false, reason = "", remaining = 0, name = "Difuse Magic",         info = "Magic damage reduction"},
+      EH_ID     = {id = 322101, ready = false, reason = "", remaining = 0, name = "Expel Harm",           info = "Self heal and incoming damage reduction"},
+      TR_ID     = {id = 101643, ready = false, reason = "", remaining = 0, name = "Transcendence",        info = "When talented with healing winds heals for 10%"},
+      BOB_ID    = {id = 115399, ready = false, reason = "", remaining = 0, name = "Black Ox Brew",        info = "Resets 'brews' cooldowns"},
+      IN_ID     = {id = 132578, ready = false, reason = "", remaining = 0, name = "Invoke Niuzao",        info = "Reduces stagger"},
+      ZM_ID     = {id = 115203, ready = false, reason = "", remaining = 0, name = "Zen Meditation",       info = "Channeled defensive cooldown"},
     }
 
 --===============================================
@@ -85,9 +86,7 @@ do
 
 -- Class buffs to mark "recently active"
   local buffs = {
-      LS_ID     = {id = 00000,   ready = false, reason = "", remaining = 0, name = "Light Stagger",     info = "Small damage over time"},
-      MS_ID     = {id = 00000,   ready = false, reason = "", remaining = 0, name = "Moderate Stagger",  info = "Medium damage over time"},
-      HS_ID     = {id = 00000,   ready = false, reason = "", remaining = 0, name = "Heavy Stagger",     info = "Heavy damage over time"},
+      ST_ID     = {id = 124275,   ready = false, reason = "", remaining = 0, name = "Stagger",     info = "Stagger damage over time"},
   }
 
 -- Harmful debuffs and spec relevant debuffs

@@ -87,7 +87,7 @@ do
       BS_ID     = {id = 6673,   ready = false, reason = "", remaining = 0, name = "Battle Shout",        info = "AP raid buff"},
       SBA_ID    = {id = 132404, ready = false, reason = "", remaining = 0, name = "Shield Block",        info = "Defensive cooldown"},
       DFS_ID    = {id = 386208, ready = false, reason = "", remaining = 0, name = "Defensive Stance",    info = "Warrior stance"},
-      IP_ID     = {id = 000000, ready = false, reason = "", remaining = 0, name = "Ignore Pain",         info = "Absorb shield that smooths incoming physical damage"},
+      IP_ID     = {id = 190456, ready = false, reason = "", remaining = 0, name = "Ignore Pain",         info = "Absorb shield that smooths incoming physical damage"},
   }
 
 -- Harmful debuffs and spec relevant debuffs
