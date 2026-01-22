@@ -1,8 +1,8 @@
-## Interface: 110207
+## Interface: 120000
 ## Title: Parry
 ## Notes: In-game Counter-play Coach for Tanks
 ## Author: M44SYR
-## Version: 0.1.0
+## Version: 1.1.0
 ## Notes: Tank coaching addon
 ## SavedVariables: ParryDB
 ## IconTexture: Interface\AddOns\Parry\media\parry_icon.tga
