@@ -1,4 +1,4 @@
-## Interface: 120000
+## Interface: 120001
 ## Title: Parry
 ## Notes: In-game Counter-play Coach for Tanks
 ## Author: M44SYR
